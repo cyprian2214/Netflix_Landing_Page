@@ -1,0 +1,49 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+  .feature,
+  .feature.reverse {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .meta {
+    font-size: 1.2rem;
+  }
+
+  .email-form {
+    flex-direction: column;
+  }
+
+  .email-form input,
+  .email-form button {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .price-container {
+    max-width: 37.5rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .price-container {
+    margin-left: initial;
+    text-align: inherit;
+  }
+}
+
+@media (max-width: 600px) {
+  .email-form {
+    flex-wrap: wrap;
+  }
+
+  .email-form input,
+  .email-form button {
+    width: 100%;
+  }
+}
